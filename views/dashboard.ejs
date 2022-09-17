@@ -1,0 +1,10 @@
+<%-include('header')-%>
+
+<div class="text-center center-div mt-5" id="login"></div>
+<div class="container w-25 py-5 mt-5">
+    <h3 class="text-white" >Welcome home</h3>
+    <h5 class="text-white"><%=locals.user?user:"User"%></h5>
+    <a href="/route/logout" class="btn btn-success">Logout</a>
+</div>
+
+<%-include('footer')-%>

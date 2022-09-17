@@ -1,0 +1,14 @@
+body {
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
+background-image: url('/assets/bg_red.jpg');  
+}
+  .center-div{
+    padding-top:10%;
+  }
+  .btn.btn-success{
+    padding:.4em 2em;
+  }
+  form{
+    padding: 0.3em;
+  }
